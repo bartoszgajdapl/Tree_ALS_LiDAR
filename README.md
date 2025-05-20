@@ -1,7 +1,7 @@
 # Tree Segmentation on ALS LiDAR Data
 
 This project performs automatic segmentation of individual trees and calculates their attributes (location, height, crown area) in urban and semi-urban environments, using ALS data provided by GUGiK via the [geoportal.gov.pl](https://geoportal.gov.pl) platform.
-![](images/tree_det_ss2.png)
+![](output/images/tree_det_ss2.png)
 ---
 
 ## Repository Structure
@@ -61,7 +61,7 @@ https://opendata.geoportal.gov.pl/NumDaneWys/DanePomiaroweLAZ/78044/78044_140225
    - Calculate centroids (`st_centroid()`),
    - Export `.geojson` files.
      
-     ![](images/tree_det_gif3.gif)
+     ![](output/images/tree_det_gif3.gif)
 
 4. Merge results across the AOI (`crowns_all.geojson`, `CHM_merged.tif`).
 5. Handle buffer zone duplicates:
@@ -84,13 +84,13 @@ https://opendata.geoportal.gov.pl/NumDaneWys/DanePomiaroweLAZ/78044/78044_140225
 ## Visualization
 
 - Interactive map (`mapview`) of tree crowns and centroids.
-  ![](images/tree_det_ss3.png)
+  ![](output/images/tree_det_ss3.png)
 - Point cloud colored by `treeID` for each tile.
-  ![](images/tree_det_gif1.gif)
-  ![](images/tree_det_gif2.gif)
+  ![](output/images/tree_det_gif1.gif)
+  ![](output/images/tree_det_gif2.gif)
 
 - Ability to inspect individual trees using `treeID`.
-  ![](images/tree_det_ss4.png)
+  ![](output/images/tree_det_ss4.png)
 
 ---
 ## Citation
