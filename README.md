@@ -5,14 +5,13 @@ This project performs automatic segmentation of individual trees and calculates 
 ---
 
 ## Repository Structure
+*Due to the size of the final files, I present only part of the full effect of the script.
 
 ```
-├── pointclouds/              # Input data (.laz)
 ├── output/                   # Output directory
 │   ├── centroids/            # Tree crown centroids (.geojson)
 │   ├── crowns/               # Tree crown outlines (.geojson)
 │   ├── chm/                  # Canopy Height Models per tile and merged mosaic
-│   └── pointcloud_segmented/ # Segmented point clouds (.laz) with treeID
 ├── tree_segmentation.R       # Main R script
 ├── images/                   # Screenshots and gifs
 └── README.md
@@ -87,14 +86,19 @@ https://opendata.geoportal.gov.pl/NumDaneWys/DanePomiaroweLAZ/78044/78044_140225
 - Interactive map (`mapview`) of tree crowns and centroids.
   ![](images/tree_det_ss3.png)
 - Point cloud colored by `treeID` for each tile.
-- ![](images/tree_det_gif1.gif)
-- ![](images/tree_det_gif2.gif)
+  ![](images/tree_det_gif1.gif)
+  ![](images/tree_det_gif2.gif)
 
 - Ability to inspect individual trees using `treeID`.
   ![](images/tree_det_ss4.png)
 
 ---
+## Citation
+- Dalponte M. et al., 2016 – metoda segmentacji (`dalponte2016()`)
+- Silva C. et al., 2016 – Local Maxima Filter (`lmf()`)
+- Khosravipour A. et al., 2014 – Pit-free CHM
 
+---
 ## Contact
 
 Author: Bartosz Gajda  
