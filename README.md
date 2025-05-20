@@ -5,7 +5,7 @@ This project performs automatic segmentation of individual trees and calculates 
 ---
 
 ## Repository Structure
-*Due to the size of the final files, I present only part of the full effect of the script.
+*Note: Only a subset of the output files is provided here as examples, due to file size constraints. The full set of results can be reproduced by running the script on the source data.*
 
 ```
 ├── output/                   # Output directory
