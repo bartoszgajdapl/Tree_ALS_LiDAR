@@ -94,7 +94,7 @@ https://opendata.geoportal.gov.pl/NumDaneWys/DanePomiaroweLAZ/78044/78044_140225
 
 ---
 ## Citation
-- Dalponte M. et al., 2016 – metoda segmentacji (`dalponte2016()`)
+- Dalponte M. et al., 2016 – (`dalponte2016()`)
 - Silva C. et al., 2016 – Local Maxima Filter (`lmf()`)
 - Khosravipour A. et al., 2014 – Pit-free CHM
 
@@ -108,4 +108,4 @@ Data source: [geoportal.gov.pl](https://geoportal.gov.pl)
 
 ## License
 
-This project is licensed under the MIT / Creative Commons BY-SA License (choose your preferred license).
+This project is licensed under the MIT License.
